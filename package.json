@@ -16,7 +16,7 @@
     "test": "WHITELIST_PATH=tests/test-whitelist.json mocha -r ts-node/register tests/**/*.test.ts",
     "lint": "gts lint",
     "clean": "gts clean",
-    "compile": "tsc",
+    "build": "tsc",
     "fix": "gts fix",
     "prepublishOnly": "npm run compile",
     "pretest": "npm run compile",
